@@ -1,0 +1,48 @@
+.title {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.title__div {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  max-width: 1152px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.title__profile {
+  width: 19vw;
+  height: 19vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.title__bio {
+  color: #464646;
+  font-size: 3.5rem;
+}
+
+.title__subsection {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.title__network {
+  display: flex;
+  padding: 0;
+}
+
+.title__network__item {
+  margin-right: 30px;
+}
+
+.title__network__item > a > img {
+  margin-left: 5px;
+}

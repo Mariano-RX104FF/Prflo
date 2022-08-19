@@ -1,0 +1,17 @@
+.footer{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.footer__rodape{
+    text-align: center;
+}
+
+.footer__rodape  p{
+    margin-bottom: 0;
+    margin-top: 0px;
+   
+}

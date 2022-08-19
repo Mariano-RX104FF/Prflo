@@ -1,0 +1,48 @@
+.menu {
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1152px;
+  margin: auto;
+  padding: 0 30px;
+
+}
+
+.menu__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__header > img {
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+}
+
+.menu > nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list__item {
+  margin-right: 1.5rem;
+}
+
+.menu__list__item:nth-child(6){
+  font-weight: bold;
+}
+
+
+.menu__list__item__contato {
+  font-weight: bold;
+  display: none;
+}
+
+

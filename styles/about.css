@@ -1,0 +1,27 @@
+.about{
+    height: 44vh;
+    display: flex;
+    align-items: center;
+    background-color: #EAF2FD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffe89c;
+    background-image: linear-gradient(90deg, #ffe89c 0%, #ffa56b 100%);
+    
+}
+
+.about__container{
+    margin: auto;
+    max-width: var(--max-width);
+    /* background-color: #EAF2FD; */
+    padding: 0 30px;
+}
+
+
+.about__title{
+    color: #464646;
+    font-size: 2rem;
+}
+.about__paragraph{
+    width: 65%;
+}
